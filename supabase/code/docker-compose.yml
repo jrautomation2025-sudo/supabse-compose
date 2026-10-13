@@ -52,7 +52,7 @@ services:
   kong:
     image: kong:2.8.1
     ports:
-      - "8000:8000"
+      - "8001:8001"
     restart: unless-stopped
     volumes:
       # https://github.com/supabase/supabase/issues/12661
